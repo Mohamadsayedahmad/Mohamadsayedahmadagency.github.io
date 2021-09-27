@@ -34,10 +34,7 @@ nav.navbar ul.navbar-nav li a.nav-link {
     transition: all 0.5 ease;
 }
 
-nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link.active {
-    color: #16aeca;
-    background-color: #ffffff;
-}
+
 
 nav.navbar .navbar-brand img {
     width: 100%;
@@ -47,7 +44,11 @@ nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
     color: #16aeca;
 }
 
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover {
+    color: #dae413;
+    background-color: #16aeca;
+}
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active{
     color: #dae413;
     background-color: #16aeca;
 }
@@ -265,10 +266,10 @@ section.gallery .work-gallery .overlay-gallery {
     height: 100vh;
     position: fixed;
     overflow: hidden;
-    z-index: 30;
     background: rgba(0, 0, 0, 0.9);
     right: 0px;
     top: 0px;
+    z-index: 30 !important;
     padding: 5% 10%;
     text-align: right;
     opacity: 0;
