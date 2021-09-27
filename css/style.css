@@ -35,7 +35,7 @@ nav.navbar ul.navbar-nav li a.nav-link {
 }
 
 
-.fixed-top{
+nav.navbar.noTransparrent{
     z-index: 29;
 }
 nav.navbar .navbar-brand img {
