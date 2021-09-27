@@ -78,6 +78,9 @@ nav.navbar button.navbar-toggler span {
 nav.navbar.noTransparrent button.navbar-toggler span {
     color: #16aeca;
 }
+.fixed-top{
+    z-index: 1030;
+}
 
 @media (max-width: 767px) {
     nav.navbar .container {
